@@ -77,25 +77,30 @@
 .recipe-list {
     display: flex;
     justify-content: space-evenly;
-    border: 1px solid black;
     margin-top: 1rem;
     border-radius: 8px;
-    padding: 8px;
-}
-
-.list-header {
-    border: 1px solid black;
-    border-radius: 8px;
-    inline-size: 100%;
-    
-    font-size: 32px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #fff;
 }
 
 .list-recipe {
-    margin-left: 8px;
+    margin-left: 32px;
 }
 
 .list-recipe a {
-    font-size: 22px;
+    display: block;
+    padding: 8px 0;
+    font-size: 18px;
+    text-decoration: none;
+    color: #333;
+}
+
+.list-recipe a:hover {
+    background-color: #ddd;
+    border-radius: 4px;
+}
+
+.recipes {
+    margin-top: 8px;
+    border-radius: 8px;
+    border: 1px solid black;
 }
