@@ -26,9 +26,76 @@
 
 .recipe-site-header {
     font-size: 32px;
+
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    /* background-color: red; */
+    color: black;
+    text-align: center;
+}
+
+.footer p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #recipe-header-subtext {
     font-size: 22px;
     font-weight: lighter;
+}
+
+.recommendation {
+    border: 1px solid black;
+    border-radius: 8px;
+    margin-top: 1rem;
+    display: flex;
+    justify-content:space-evenly;
+    word-break: break-all;
+}
+
+.recommendation-img img{
+    padding: 16px;
+    height: 360px;
+    width: 300px;
+}
+
+.recommendation-text {
+    padding: 16px;
+}
+
+#rec-text {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 32px;
+    font-weight: 350;
+    font-style: italic;
+}
+
+.recipe-list {
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid black;
+    margin-top: 1rem;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+.list-header {
+    border: 1px solid black;
+    border-radius: 8px;
+    inline-size: 100%;
+    
+    font-size: 32px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.list-recipe {
+    margin-left: 8px;
+}
+
+.list-recipe a {
+    font-size: 22px;
 }
