@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.site {
+    margin-top: 4rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+.header-recipies {
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+.recipe-site {
+    display: flex;
+    margin-top: 4px;
+    border-radius: 8px;
+    border: 1px solid black;
+}
+
+.recipe-site-header {
+    font-size: 32px;
+}
+
+#recipe-header-subtext {
+    font-size: 22px;
+    font-weight: lighter;
+}
